@@ -6,22 +6,23 @@
   integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
   crossorigin="anonymous"
 />
-<link rel="stylesheet" href="static/css/style.css">
+<link rel="stylesheet" href="C:\Users\mikeb\Class\UFOs\static\css\style.css">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
   <title>Python to JavaScript</title>
 </head>
 
-<body>
+<body class="bg-dark">
   <script src="app.js"></script>
   <div class="wrapper">
-    <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="index.html">UFO Sightings</a>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+      <a class="navbar-brand" href="UFO_Finder.html">UFO Sightings</a>
     </nav>
     <div class="jumbotron">
-      <h1>The Truth Is Out There</h1>
+        <!--img src="C:\Users\mikeb\Class\UFOs\static\css\images\nasa.jpg"-->
+      <h1 class="display-4">The Truth is Out There</h1>
     </div>
     <div class="container-fluid">
       <div class="row">
@@ -42,17 +43,19 @@
             <div class="col-md-9">
               <form>
                 <p>Filter Search</p>
-              </form>
-              <ul class="list-group">
-                <li class="list-group-item">
-                  <label for="date">Enter Date</label>
-                  <input type="text" placeholder="1/10/2010" id="datetime" />
+              </form bg-dark>
+              <ul class="list-group bg-dark">
+                <li class="list-group-item bg-dark">
+                  
+                    <label for="date">Enter Date</label>
+                      <input type="text" placeholder="1/10/2010" id="datetime" />
+                  
                 </li>
-                <li class="list-group-item">
-                  <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+                <li class="list-group-item bg-dark">
+                  <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>
                 </li>
                 <div class="col-md-9">
-                  <table class="table table-striped">
+                  <table class="table table-striped bg-dark">
                     <thead>
                       <tr>
                         <th>Date</th>
@@ -74,6 +77,9 @@
       </div>
     </div>
   </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+  <script src="C:\Users\mikeb\Class\UFOs\static\data.js"></script>
+  <script src="C:\Users\mikeb\Class\UFOs\static\app.js"></script>
 </body>
 
 </html>
