@@ -1,0 +1,12 @@
+body {
+    
+    color: #f7f7f7;
+  }
+
+.jumbotron {
+    background-image: url(http://www.nasa.gov/sites/default/files/thumbnails/image/astronauts_lunar_craterv2.png);
+    /* background-image: url("C:\Users\mikeb\Class\UFOs\nasa.jpg"); */
+    
+    background-size: 100% 100%;
+    text-align: center;
+  }
