@@ -2,7 +2,9 @@
 
 ## Overview 
 
-The purpose of this project was to create a 
+The purpose of this project was to create a website, linked to a dataset of UFO sightings, that is searchable by 5 different criteria, Date, City, State, Country and Shape or descriptor. 
+
+[TEXT TO SHOW](actual URL to navigate)
 
 |Blank search|First Search Refinement|Second Search Refinement|
 |----|----|----|
@@ -12,4 +14,4 @@ The purpose of this project was to create a
 
 ## Summary
 
-One drawback of the design is the inability to search over a period, for example "show all results between 1/1/2010 and 4/10 2013". This could be relevant to people who perhaps lived in a city temporarily, and wanted to search events during that time. Additionally, we would love to see an option to view pictures and videos of the occurences through imbedded links. Perhaps exact location tags could be added through a map API as well, allowing UFO chasers to visit these places and look for patterns is where these things take place. 
+One drawback of the design is the inability to search over a period, for example "show all results between 1/1/2010 and 4/10 2013". This could be relevant to people who perhaps lived in a city temporarily, and wanted to search events during that time. Additionally, we would love to see an option to view pictures and videos of the occurences through imbedded links. Perhaps exact location tags could be added through a map API as well, allowing UFO chasers to visit these places and look for patterns is where these things take place. Also perhaps flexibility in searches would be beneficial, allowing capitalization and whitespace or full state names. 
