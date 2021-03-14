@@ -4,7 +4,7 @@
 
 The purpose of this project was to create a website, linked to a dataset of UFO sightings, that is searchable by 5 different criteria, Date, City, State, Country and Shape or descriptor. 
 
-A link to [the html file](https://github.com/Mikeblanchard/UFOs/blob/main/UFO_Finder.html) and the [app](https://github.com/Mikeblanchard/UFOs/blob/main/static/app.js) provided here.
+A link to the [html file](https://github.com/Mikeblanchard/UFOs/blob/main/UFO_Finder.html) and the [app](https://github.com/Mikeblanchard/UFOs/blob/main/static/app.js) provided here.
 
 ## Results
 
